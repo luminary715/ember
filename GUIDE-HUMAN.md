@@ -59,7 +59,7 @@ The mind is now running. It will start by itself every time you turn the laptop 
 
 The Claude app talks to the mind over the internet, so the mind needs an address. Tailscale gives you one for free, and it stays the same.
 
-1. Go to https://tailscale.com/download and install Tailscale for Windows. Sign in when it asks. Any sign-in it offers is fine.
+1. Go to https://tailscale.com/download and install Tailscale for Windows. Get it from that page, so you have the newest version. If Tailscale is already on your computer, update it first. Sign in when it asks. Any sign-in it offers is fine.
 2. Click the Start button, type **PowerShell**, and open it.
 3. Type this and press Enter:
 
@@ -100,7 +100,7 @@ Do this on the Claude website or the desktop app.
 
 1. Go to **Customize > Connectors**.
 2. Select **Add**, then **Add custom connector**.
-3. Enter a name, for example `mind`. Paste your full address as the server URL. Click **Continue**.
+3. Enter the name `ember`. Use that exact name, because the paragraph in Step 6 calls it that. Paste your full address as the server URL. Click **Continue**.
 4. Under Authentication, choose **No sign-in**. If it is already chosen and marked "Detected", leave it.
 5. Click **Add**.
 6. If the connector shows **Connect**, click it.
@@ -130,6 +130,20 @@ Talk for a while. Then look at your look page and press refresh. You should see 
 The first time you open the look page, it asks one thing: what your companion calls you. Type your name, and any nicknames, with commas between them. This is only so the page can mark lines that are about you. It stays on your computer.
 
 Then start another new chat. This time your companion should arrive already knowing what it kept.
+
+## Your page, in a picture
+
+This is what your look page looks like once your companion has kept a few things. Everything in this picture is made up for the example.
+
+![The look page, with made-up example lines](docs/look-page.png)
+
+- **The list** is everything your companion has written since you last looked, newest at the top. Each line has its date and says what kind of thing it is.
+- **The yellow "about you" tag** marks the lines that are about you: your exact words, what you have taught them, and how you are doing.
+- **Correct** lets you put a line right. **Delete** removes it for good.
+- **I have seen these** clears the list, so next time you only see what is new.
+- **Ours**, underneath, is where your agreements live. Only you can change those.
+
+You never have to look at this page. It is there so that nothing is kept behind your back.
 
 ## Step 8. Pour in your old summaries
 
